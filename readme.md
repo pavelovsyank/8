@@ -7,3 +7,13 @@ pip install "uvicorn[standard]"
 создать новый репозиторий на гитхаб(например 8)
 связать этот репозиторий с проектом:
 git remote add origin git@github.com:pavelovsyank/8.git
+
+продолжить работу над проектом которого нет на пк 
+клонировать репозиторий
+git clone git@github.com:pavelovsyank/8.git
+открыть проект в вскод 
+создать окружение
+запустить окружение(убедиться что выбран правильный интерпритатор)
+
+установить библиотеки:
+pip install -r requirements.txt
