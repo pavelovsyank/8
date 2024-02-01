@@ -18,6 +18,7 @@ app.mount("/static", StaticFiles(directory=dir_static), name="static")
 templates = Jinja2Templates(directory=dir_templates)
 
 
+
 @app.get("/items/{id}", response_class=HTMLResponse)
 async def read_item(request: Request, id: str):
     return templates.TemplateResponse(
@@ -28,6 +29,47 @@ async def read_item2(request: Request, id: str):
     return templates.TemplateResponse(
         request=request, name="bb.html", context={"id": id}
     )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item3(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="aa.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item4(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item5(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item6(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item7(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item8(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item9(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+@app.get("/write/{id}", response_class=HTMLResponse)
+async def read_item10(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="cc.html", context={"id": id}
+    )
+
 
 
 @app.get("/produkt/{item_id}")
