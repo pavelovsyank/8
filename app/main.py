@@ -144,6 +144,156 @@ async def corn(request: Request, id: str):
     return templates.TemplateResponse(
         request=request, name="corn.html", context={"id": id}
     )
+@app.get("bob/{id}", response_class=HTMLResponse)
+async def bob(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="bob.html", context={"id": id}
+    )
+@app.get("/airline/{id}", response_class=HTMLResponse)
+async def airline(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="airline.html", context={"id": id}
+    )
+@app.get("/auto/{id}", response_class=HTMLResponse)
+async def auto(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="auto.html", context={"id": id}
+    )
+@app.get("/aggressive/{id}", response_class=HTMLResponse)
+async def aggressive(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="aggressive.html", context={"id": id}
+    )
+@app.get("/address/{id}", response_class=HTMLResponse)
+async def address(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="address.html", context={"id": id}
+    )
+@app.get("/academy/{id}", response_class=HTMLResponse)
+async def academy(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="academy.html", context={"id": id}
+    )
+@app.get("/active/{id}", response_class=HTMLResponse)
+async def active(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="active.html", context={"id": id}
+    )
+@app.get("/algorithm/{id}", response_class=HTMLResponse)
+async def algorithm(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="algorithm.html", context={"id": id}
+    )
+@app.get("/alcohol/{id}", response_class=HTMLResponse)
+async def alcohol(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="alcohol.html", context={"id": id}
+    )
+@app.get("/diamond/{id}", response_class=HTMLResponse)
+async def diamond(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="diamond.html", context={"id": id}
+    )
+@app.get("/alternative/{id}", response_class=HTMLResponse)
+async def alternative(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="alternative.html", context={"id": id}
+    )
+@app.get("/alpha/{id}", response_class=HTMLResponse)
+async def alpha(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="alpha.html", context={"id": id}
+    )
+@app.get("/arena/{id}", response_class=HTMLResponse)
+async def arena(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="arena.html", context={"id": id}
+    )
+@app.get("/arrest/{id}", response_class=HTMLResponse)
+async def arrest(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="arrest.html", context={"id": id}
+    )
+@app.get("/atomic/{id}", response_class=HTMLResponse)
+async def atomic(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="atomic.html", context={"id": id}
+    )
+@app.get("/atoms/{id}", response_class=HTMLResponse)
+async def atoms(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="atoms.html", context={"id": id}
+    )
+@app.get("/audio/{id}", response_class=HTMLResponse)
+async def audio(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="audio.html", context={"id": id}
+    )
+@app.get("/auditors/{id}", response_class=HTMLResponse)
+async def auditors(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="auditors.html", context={"id": id}
+    )
+@app.get("/airport/{id}", response_class=HTMLResponse)
+async def airport(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="airport.html", context={"id": id}
+    )
+@app.get("/gunman/{id}", response_class=HTMLResponse)
+async def gunman(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="gunman.html", context={"id": id}
+    )
+@app.get("/drum/{id}", response_class=HTMLResponse)
+async def drum(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="drum.html", context={"id": id}
+    )
+@app.get("/bass/{id}", response_class=HTMLResponse)
+async def bass(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="bass.html", context={"id": id}
+    )
+@app.get("/battery/{id}", response_class=HTMLResponse)
+async def battery(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="battery.html", context={"id": id}
+    )
+@app.get("/homeless/{id}", response_class=HTMLResponse)
+async def homeless(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="homeless.html", context={"id": id}
+    )
+@app.get("/secure/{id}", response_class=HTMLResponse)
+async def secure(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="secure.html", context={"id": id}
+    )
+@app.get("/white/{id}", response_class=HTMLResponse)
+async def white(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="white.html", context={"id": id}
+    )
+@app.get("/beta/{id}", response_class=HTMLResponse)
+async def beta(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="beta.html", context={"id": id}
+    )
+@app.get("/ticket/{id}", response_class=HTMLResponse)
+async def ticket(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="ticket.html", context={"id": id}
+    )
+@app.get("/blank/{id}", response_class=HTMLResponse)
+async def blank(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="blank.html", context={"id": id}
+    )
+@app.get("/block/{id}", response_class=HTMLResponse)
+async def block(request: Request, id: str):
+    return templates.TemplateResponse(
+        request=request, name="block.html", context={"id": id}
+    )
 
 
 
