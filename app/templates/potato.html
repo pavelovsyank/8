@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Item Details</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body> 
+    <p> это файл ee</p>
+    <h1><a href="{{ url_for('apple', id=id) }}">apple: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('chery', id=id) }}">chery: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('melon', id=id) }}">melon: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('watermelon', id=id) }}">watermelon: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('potato', id=id) }}">potato: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('tomato', id=id) }}">tomato: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('blackberries', id=id) }}">blackberries: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('pear', id=id) }}">pear: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('cucumber', id=id) }}">cucumber: {{ id }}</a></h1>
+    <h1><a href="{{ url_for('grape', id=id) }}">grape: {{ id }}</a></h1>
+
+</body>
+</html>

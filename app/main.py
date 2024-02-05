@@ -19,55 +19,55 @@ templates = Jinja2Templates(directory=dir_templates)
 
 
 
-@app.get("/items/{id}", response_class=HTMLResponse)
-async def read_item(request: Request, id: str):
+@app.get("/chery/{id}", response_class=HTMLResponse)
+async def chery(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="item.html", context={"id": id}
+        request=request, name="cucumber.html", context={"id": id}
     )
-@app.get("/read/{id}", response_class=HTMLResponse)
-async def read_item2(request: Request, id: str):
+@app.get("/cucumber/{id}", response_class=HTMLResponse)
+async def cucumber(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="bb.html", context={"id": id}
+        request=request, name="cucumber.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item3(request: Request, id: str):
+@app.get("/apple/{id}", response_class=HTMLResponse)
+async def apple(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="aa.html", context={"id": id}
+        request=request, name="apple.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item4(request: Request, id: str):
+@app.get("/melon/{id}", response_class=HTMLResponse)
+async def melon(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="melon.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item5(request: Request, id: str):
+@app.get("/watermelon/{id}", response_class=HTMLResponse)
+async def watermelon(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="watermelon.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item6(request: Request, id: str):
+@app.get("/tomato/{id}", response_class=HTMLResponse)
+async def tomato(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="tomato.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item7(request: Request, id: str):
+@app.get("/grape/{id}", response_class=HTMLResponse)
+async def grape(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="grape.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item8(request: Request, id: str):
+@app.get("/blackberries/{id}", response_class=HTMLResponse)
+async def blackberries(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="blackberries.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item9(request: Request, id: str):
+@app.get("/pear/{id}", response_class=HTMLResponse)
+async def pear(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="pear.html", context={"id": id}
     )
-@app.get("/write/{id}", response_class=HTMLResponse)
-async def read_item10(request: Request, id: str):
+@app.get("/potato/{id}", response_class=HTMLResponse)
+async def potato(request: Request, id: str):
     return templates.TemplateResponse(
-        request=request, name="cc.html", context={"id": id}
+        request=request, name="potato.html", context={"id": id}
     )
 
 
