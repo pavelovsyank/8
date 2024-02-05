@@ -77,5 +77,7 @@ async def read_item(item_id):
     return {"produkt_id": item_id}
 
 @app.get("/")
-async def root():
-    return {"message": "Hello World"}
+async def root(request: Request):
+    return templates.TemplateResponse(
+        request=request, name="root.html"
+    )
