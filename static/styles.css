@@ -1,6 +1,82 @@
-.color1{
-    color: #33cccc;
-}
-.xxx {
-    color: skyblue;
- }
+.xxx{
+    color: #19d2d2;
+    text-align:center;
+    font-family:Verdana;
+    padding: 20px;
+  }
+  .square {
+    height: 111x;
+    width: 300px;
+    background-color: #309060;
+    padding: 5px;
+  }
+  .layer {
+    background: #fc3; /* Цвет фона */
+    border: 2px solid black;  /* Параметры рамки */
+    padding: 50px; /* Поля вокруг текста */
+    margin: 50px;
+   }
+   div {
+    overflow:hidden;
+    
+  }
+  .bbb{
+    max-width: 100%;
+  }
+  .text{
+    color:#309060
+  }
+  .fon{
+    background-color: #909090;
+  }
+  .hhh {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .hhh1 {
+    background-image:url(animals1.jpg) ;
+  }
+  .hhh2 {
+    background-image:url(animals2.jpg) ;
+  }
+  .hhh3 {
+    background-image:url(animals3.jpg) ;
+  }
+  .hhh4 {
+    background-image:url(fish1.jpg) ;
+  }
+  .hhh5 {
+    background-image:url(fish2.jpg) ;
+  }
+  .hhh6 {
+    background-image:url(fish3.jpg) ;
+  }
+  .hhh7 {
+    background-image:url(ptiza1.jpg) ;
+  }
+  .hhh8 {
+    background-image:url(ptiza2.jpg) ;
+  }
+  .hhh9 {
+    background-image:url(ptiza3.jpg) ;
+  }
+  .hhh10 {
+    background-image:url(juk1.jpg) ;
+  }
+  .hhh11 {
+    background-image:url(juk2.jpg) ;
+  }
+  .hhh12 {
+    background-image:url(juk3.jpg) ;
+  }
+  .text2{
+    color:black
+  }
+  .text3{
+    color:black
+  }
