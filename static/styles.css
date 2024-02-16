@@ -80,3 +80,18 @@
   .text3{
     color:black
   }
+
+@-webkit-keyframes loading {
+    0% {opacity: 0.9; right:0px; top:0px}
+    25% {opacity: 0.7; right:0px; top:0px}
+    75% {opacity: 0.3; right:0px; top:0px}
+    100% {opacity: 0.1; right:0px; top:0}
+}
+.images{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+img:hover{
+  transform:scale(1.3);
+}
